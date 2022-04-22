@@ -1,0 +1,13 @@
+*) Logical Data Model:
+    -> Data Model
+        - key -> printable ASCII
+    -> Value:
+        - Primitives:
+            *) Strings 
+        - Containers (of string)
+            *) Hashes
+            *) Lists
+            *) Sets
+            *) Sorted Sets
+        
+        -> String Array (512MB max)

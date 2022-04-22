@@ -15,4 +15,3 @@
 *) To use redis command inside windows terminal:
     -> wsl redis-server
     -> wsl redis-cli
-    

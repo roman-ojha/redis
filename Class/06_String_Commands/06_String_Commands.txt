@@ -1,0 +1,6 @@
+-> keys * (to get all the keys)
+-> set <key> <value> (to set the string value)
+-> get <key> (to get value on given key)
+-> del <key> (to delete given key and value)
+-> set <previously_stored_key> <value> (to override the value)
+-> flushall (to delete all the key and value pair)
