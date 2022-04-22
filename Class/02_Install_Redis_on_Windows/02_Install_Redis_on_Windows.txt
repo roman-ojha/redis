@@ -1,0 +1,18 @@
+*) Download redis for windows:
+    -> https://redis.io/docs/getting-started/installation/install-redis-on-windows/
+    -> https://redis.io/
+    -> https://redis.io/download/
+
+*) After install in wsl cli:
+    -> redis-server (to start the server)
+    -> redis-cli (to get into redis cli to another terminal)
+    -> quit (to get out of redis cli)
+    -> ping
+
+    -> set name Mark (set <key> <value> =  to set the value in key value pair)
+    -> get <key> (to get the value using key)
+
+*) To use redis command inside windows terminal:
+    -> wsl redis-server
+    -> wsl redis-cli
+    
