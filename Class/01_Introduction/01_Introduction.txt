@@ -1,0 +1,27 @@
+*) What is Redis?
+    -> Redis is an open source, BSD licensed, advanced key-value store.
+    -> and in-memory key-value store, with persistence.
+    -> open source
+    -> written in C
+    -> NoSQL database
+    -> redis can be use as a database, caching layer or a message broker
+
+*) NoSQL?
+    -> An informal, loosely-defined term for non-relational, structured data storage systems Like MongoDB, memcached, CouchDB and Redis
+
+*) What does the name Redis mean?
+    -> Redis stands for REmote DIctionary Server.
+    -> it is often referred to as a data structure server, since the key can contain strings, hashes, lists, sets and stored sets.
+
+*) What is Redis used for?
+    -> Redis is an advanced key-value store that can function as a NoSQL database or as a memory cache store to improve performance when serving data that is stored in system memory
+
+*) How to interact with Redis?
+    -> Once installed in a server, run the Redis CLI(command line interface) to issue commands to Redis. While working on the CLI tool, your command-line prompt will change to :
+    -> redis>
+
+*) History:
+    -> Released in Early 2009
+    -> By Salvatore Sanfilippo
+    -> build in order to scale http://lloogg.com/
+    -> March 2010 - VMWare hired Sanfilippo to work full-time on Redis
