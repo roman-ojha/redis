@@ -1,0 +1,16 @@
+*) Redis Sorted Set:
+    -> same as redis set with a unique feature that there members can be sorted
+    -> every member of a sorted set is associated with a score and based on the score there member can be sorted
+    -> it is fine to give same score to multiple member
+
+*) Command:
+    -> zadd <score> <value> [<score> <value>..] (create a set if doesn't exist, add member to set if exist)
+    -> zrange <key> <min> <max> (get value up to given number) 
+    -> zrange <key> 0 -1 (get all the value)
+    -> zcard <key> (get total number of members)
+    -> zcount <kye> <min_score> <max_score> (return total number of member range from min_score to max_score)
+    -> zrem <key> <member> [<member>...] (remove given member from the set)
+    -> zrank <key> <member> (return index position of member)
+    -> zrevrank <key> <member> (return index position in reverse order)
+    -> zscore <key> <member> (return score value of the member)
+    -> zrangebyscore <key> <min> <max> (return member associated from score <min> to <max>)
