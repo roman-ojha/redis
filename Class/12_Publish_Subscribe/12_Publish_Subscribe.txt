@@ -1,0 +1,8 @@
+*) Redis Public Subscribe:
+    -> it implements the messaging system where sender is called the publisher and the receiver is called the subscriber
+    -> in redis client can subscriber to any number of channel
+
+*) Command:
+    -> SUBSCRIBE <channel_name> [<channel_name>..] (now the executed terminal Subscribe to given channel)
+    -> PUBLISH <channel_name> <message> (to publish message to given channel)
+    -> PSUBSCRIBE r* (subscriber to any publisher who publish with the channel name start with r)  
