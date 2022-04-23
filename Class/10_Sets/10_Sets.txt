@@ -1,0 +1,17 @@
+*) Redis Sets:
+    -> it is an unOrdered collection of unique string
+
+
+*) Command:
+    -> sadd <key> <member> [<member>...] (to add unique member in set)
+    -> smembers <key> (to get all the members)
+    -> scard <key> (return total number of members in set)
+    -> sdiff <key1> <key2> [<key>..]  (return different element between one set to another)
+    -> sdiffstore <new_key> <from_key1> <to_key2> [<key>..] (store different in new key)
+    -> sunion <key1> <key2> (return union element)
+    -> sunionstore <store_in_key> <key1> <key2> (store union element)
+    -> sinter <kye1> <key2> [<key>..] (return intersection element)
+    -> sinterstore <store_in_key> <key1> <key2> (store intersection element)
+    -> srem <key> <element> [<element>..] (to remove element form the set)
+    -> spop <key> <count> (to remove random value)
+    -> smove <source_key> <destination_key> <member> (to move member from one set to another set)
