@@ -1,0 +1,16 @@
+*) Hashes:
+    -> hashes are map between string field and string values, perfect data to represent object
+    -> every hashes can store up to 4 billion field value pair in redis
+
+*) Command:
+    -> hmset <key> <field> <value> [<field> <value> ...] (to seth hashes)
+    -> hget <key> <field> (to get the single field value)
+    -> hgetall <key> (to get all the field value)
+    -> hexists <key> <field> (return 0/1 (field doesn't exist)/(field exist))
+    -> hdel <key> <field> [<field>...] (delete field value from the given key)
+    -> hsetnx <key> <field> <value> (to set field value if field doesn't exist)
+    -> hkeys <key> (to get all the field from the given key)
+    -> hincrby <key> <field> <increment_by> (increment value)
+    -> hvals <keys> (to get all values of given keys)
+    -> hlen <key> (to get the number of field)
+    -> hmget <key> <field> [<field>...] (to get values of given fields)
