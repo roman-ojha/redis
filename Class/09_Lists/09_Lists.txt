@@ -1,0 +1,16 @@
+*) Redis List:
+    -> it is a list string sorted by insertion order
+    -> element can be inserted to a list from the top or from the bottom
+
+*) Command:
+    -> lpush <key> <element> [<element>..] (to insert element from the head)
+    -> lrange <key> <start_index> <stop_index> (to get the element from <start...end>)
+    -> lpop <key> <count> (to pop element from the head)
+    -> rpush <key> <element> [<element>..] (to insert element from the end/bottom/tail)
+    -> rpop <key> (to pop element from end)
+    -> llen <key> (length of list)
+    -> lindex <key> <index> (to get element in given index)
+    -> lset <key> <index> <element> (to override value in given index)
+    -> lrange <key> 0 -1 (to get all the element from the list)
+    -> lpushx <key> <element> [<element>..] (left push if the key exist)
+    -> linsert <key> <before/after> <pivot_element> <element> (to insert the new element before/after the given element)

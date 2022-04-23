@@ -11,6 +11,7 @@
 
     -> set name Mark (set <key> <value> =  to set the value in key value pair)
     -> get <key> (to get the value using key)
+    -> redis-cli monitor (to monitor all the command, open in another terminal)
 
 *) To use redis command inside windows terminal:
     -> wsl redis-server
