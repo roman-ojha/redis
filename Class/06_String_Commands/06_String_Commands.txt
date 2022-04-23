@@ -6,6 +6,3 @@
 -> flushall (to delete all the key and value pair)
 -> exists <key> (return 0/1 (doesn't/does))
 -> clear (to clear screen)
--> ttl <key> (time to live if '-1' then it will live for ever, '-2' for key value is expire, '<number>' expire in <number> second)
--> expire <key> <in_second> (to expire the key in certain time)
--> setex <key> <expire_in_sec> <value> (to get expire data on setting value)
