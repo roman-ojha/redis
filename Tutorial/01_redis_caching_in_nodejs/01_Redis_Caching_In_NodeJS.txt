@@ -1,0 +1,6 @@
+*) Overview:
+    -> For this tutorial we will going to make a request to the github api to get the number of repo for user
+    -> and we will store that number into redis cache
+    -> so it will allow us to make less request
+    -> we don't have to making request to speed up our application
+
