@@ -1,0 +1,4 @@
+*) Connect to redis cloud:
+  -> wsl redis-cli -h <host> -p <port> -a <password>
+  -> read Docs for more detail:
+      -> https://www.digitalocean.com/community/cheatsheets/how-to-connect-to-a-redis-database
