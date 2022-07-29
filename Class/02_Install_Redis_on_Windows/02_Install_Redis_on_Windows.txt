@@ -3,6 +3,9 @@
     -> https://redis.io/
     -> https://redis.io/download/
 
+*) Install in wsl:
+    -> sudo apt-get install redis
+
 *) After install in wsl cli:
     -> redis-server (to start the server)
     -> redis-cli (to get into redis cli to another terminal)
@@ -13,6 +16,6 @@
     -> get <key> (to get the value using key)
     -> redis-cli monitor (to monitor all the command, open in another terminal)
 
-*) To use redis command inside windows terminal:
+*) To use wsl redis command inside windows terminal:
     -> wsl redis-server
     -> wsl redis-cli
