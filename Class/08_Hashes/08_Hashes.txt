@@ -1,3 +1,4 @@
+-> https://redis.io/docs/latest/operate/oss_and_stack/install/install-redis/
 *) Hashes:
     -> hashes are map between string field and string values, perfect data to represent object
     -> every hashes can store up to 4 billion field value pair in redis

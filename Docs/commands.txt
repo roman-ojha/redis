@@ -1,0 +1,2 @@
+*) Docker:
+    -> docker run -p 6378:6379 -e REDIS_PASSWORD=roman -e REDIS_USER=roman -v .\redis.conf:/usr/local/etc/redis/redis.conf --name redis-test -d redis redis-server /usr/local/etc/redis/redis.conf (run redis with username and password)
